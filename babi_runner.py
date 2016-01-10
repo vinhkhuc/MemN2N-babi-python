@@ -14,6 +14,7 @@ seed_val = 42
 random.seed(seed_val)
 np.random.seed(seed_val)  # for reproducing
 
+
 def run_task(data_dir, task_id):
     """
     Train and test for each task

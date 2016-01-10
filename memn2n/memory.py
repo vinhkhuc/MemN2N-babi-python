@@ -3,6 +3,7 @@ import numpy as np
 from memn2n.nn import ElemMult, Identity, Sequential, LookupTable, Module
 from memn2n.nn import Sum, Parallel, Softmax, MatVecProd
 
+
 class Memory(Module):
     """
     Memory:
@@ -118,6 +119,7 @@ class MemoryBoW(Memory):
         self.mod_out = Sequential()
         self.mod_out.add(p)
         self.mod_out.add(MatVecProd(False))
+
 
 class MemoryL(Memory):
     """

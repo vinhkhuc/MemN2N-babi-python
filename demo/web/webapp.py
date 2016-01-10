@@ -12,6 +12,7 @@ app = flask.Flask(__name__)
 memn2n = None
 test_story, test_questions, test_qstory = None, None, None
 
+
 def init(data_dir, model_file):
     """ Initialize web app """
     global memn2n, test_story, test_questions, test_qstory
@@ -26,12 +27,15 @@ def init(data_dir, model_file):
     test_story, test_questions, test_qstory = \
         parse_babi_task(test_data_path, memn2n.general_config.dictionary, False)
 
+
 def run():
     app.run()
+
 
 @app.route('/')
 def index():
     return flask.render_template("index.html")
+
 
 @app.route('/get/story', methods=['GET'])
 def get_story():
@@ -51,6 +55,7 @@ def get_story():
         "question": question_txt,
         "correct_answer": correct_answer
     })
+
 
 @app.route('/get/answer', methods=['GET'])
 def get_answer():

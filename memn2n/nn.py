@@ -6,6 +6,7 @@ import numpy as np
 # when Softmax is not included at the end layer.
 np.seterr(divide='ignore')
 
+
 class Module(object):
     """
     Abstract Module class for neural net

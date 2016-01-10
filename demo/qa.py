@@ -173,6 +173,7 @@ def train_model(data_dir, model_file):
     memn2n = MemN2N(data_dir, model_file)
     memn2n.train()
 
+
 def run_console_demo(data_dir, model_file):
     """
     Console-based demo
@@ -230,6 +231,7 @@ def run_console_demo(data_dir, model_file):
         will_continue = raw_input("Do you want to continue? [Y/n] ")
         if will_continue != '' and will_continue.lower() != 'y': break
         print("=" * 70)
+
 
 def run_web_demo(data_dir, model_file):
     from demo.web import webapp

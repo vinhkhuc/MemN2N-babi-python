@@ -164,6 +164,7 @@ def train_linear_start(train_story, train_questions, train_qstory, memory, model
     # Train with old settings
     train(train_story, train_questions, train_qstory, memory, model, loss, general_config)
 
+
 def test(test_story, test_questions, test_qstory, memory, model, loss, general_config):
     total_test_err = 0.
     total_test_num = 0
