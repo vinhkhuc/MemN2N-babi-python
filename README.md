@@ -3,6 +3,12 @@ This is the implementation of MemN2N model in Python for the [bAbI tasks](http:/
 Section 4 of the paper "[End-To-End Memory Networks](http://arxiv.org/abs/1503.08895)". This code is based on 
 the original [Matlab code](https://github.com/facebook/MemNN/tree/master/MemN2N-babi-matlab).
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/vinhkhuc/MemN2N-babi-python/master/demo/web/static/memn2n-babi.gif" 
+style="width:700px;">
+<a href="https://github.com/vinhkhuc/MemN2N-babi-python#question-answering-demo">Web-based Demo</a>
+</p>
+
 ## Requirements
 * Python 2.7
 * Numpy, Flask (optional, only for web-based demo) which can be installed using pip:
@@ -53,17 +59,17 @@ python -m demo.qa -console
 python -m demo.qa -train
 ```
 
-* To show all options, run the script with the flag `-h`.
+* To show all options, run the script with `-h`.
 
-## Benchmark Results
-To compare with the Matlab code, please see the benchmark results [here]().
-
-## Future Plan
-* Port to TensorFlow/Keras
-* Support Python 3.
+## Benchmark
+See the results [here](https://github.com/vinhkhuc/MemN2N-babi-python/tree/master/bechmarks).
 
 ### Author
 Vinh Khuc
 
 ### License
 BSD
+
+### Future Plan
+* Port to TensorFlow/Keras
+* Support Python 3.
