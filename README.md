@@ -43,7 +43,7 @@ python babi_runner.py -j
 python -m demo.qa
 ```
 
-* Alternatively, you can try a console-based demo:
+* Alternatively, you can try the console-based demo:
 ```
 python -m demo.qa -console
 ```
@@ -55,7 +55,7 @@ python -m demo.qa -train
 
 * To show all options, run `python -m demo.qa -h`
 
-## Benchmark
+## Benchmarks
 See the results [here](https://github.com/vinhkhuc/MemN2N-babi-python/tree/master/bechmarks).
 
 ### Author
@@ -64,6 +64,6 @@ Vinh Khuc
 ### License
 BSD
 
-### Future Plan
+### Future Plans
 * Port to TensorFlow/Keras
 * Support Python 3
