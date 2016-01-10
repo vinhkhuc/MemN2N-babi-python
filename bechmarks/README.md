@@ -2,8 +2,9 @@ This page contains benchmark results to compare this Python implementation and t
 [original Matlab code](https://github.com/facebook/MemNN/tree/master/MemN2N-babi-matlab) 
 on the [bAbI tasks](http://fb.ai/babi). 
 
-These results are test error rate (%) with default configuration, i.e. 3 hops, position encoding (PE), 
+These results are test error rates (%) with default configuration: 3 hops, position encoding (PE), 
 linear start training (LS), random noise (RN) and adjacent weight tying.
+
 
 |   Task   |   PE LS RN (matlab)   |   PE LS RN JOINT (matlab)   |   PE LS RN (this repo)    |   PE LS RN JOINT (this repo)   | 		
 |:--------:|:---------------------:|:---------------------------:|:-------------------------:|:------------------------------:|
