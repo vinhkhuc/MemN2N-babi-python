@@ -3,8 +3,7 @@ This is the implementation of MemN2N model in Python for the [bAbI question-answ
 as shown in the Section 4 of the paper "[End-To-End Memory Networks](http://arxiv.org/abs/1503.08895)". It is based on 
 the Facebook's [Matlab code](https://github.com/facebook/MemNN/tree/master/MemN2N-babi-matlab).
 
-<img src="https://raw.githubusercontent.com/vinhkhuc/MemN2N-babi-python/master/demo/web/static/memn2n-babi.gif" 
-style="width:700px;">
+![Web-based Demo](http://i.imgur.com/mKtZ7kB.gif)
 
 ## Requirements
 * Python 2.7
@@ -12,9 +11,7 @@ style="width:700px;">
 ```
 $ sudo pip install -r requirements.txt
 ```
-* [bAbI dataset](http://fb.ai/babi)
-
-It can be downloaded to `data/tasks_1-20_v1-2` by running: 
+* [bAbI dataset](http://fb.ai/babi) should be downloaded to `data/tasks_1-20_v1-2`: 
 ```
 $ wget -qO- http://www.thespermwhale.com/jaseweston/babi/tasks_1-20_v1-2.tar.gz | tar xvz -C data
 ```
