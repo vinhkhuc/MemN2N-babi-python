@@ -1,0 +1,50 @@
+body {
+    padding-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.shadow {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 24px #bbb;
+    background: #fff;
+    color: #666;
+}
+
+.qa-container, .qa-explain-container {
+    width: 550px;
+    /*max-height: 650px;*/
+    padding: 20px 50px 40px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.qa-explain-container table th {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.container > h3 {
+    text-align: center;
+}
+
+.qa-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.qa-form .btn {
+    width: 200px;
+}
+
+.qa-form .form-control[readonly] {
+    background-color: #fff;
+}
+
+/* Font */
+.app-header, .qa-form label, .qa-explain-container label, .qa-explain-container th {
+    font-family: 'Shadows Into Light Two', sans-serif;
+}
+/*.qa-form input, .qa-form textarea, .qa-form button {*/
+    /*font-family: 'Roboto', sans-serif;*/
+/*}*/
