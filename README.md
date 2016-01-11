@@ -1,7 +1,7 @@
 ## End-To-End Memory Networks for Question Answering
-This is the implementation of MemN2N model in Python for the [bAbI question-answering tasks](http://fb.ai/babi) 
+This is an implementation of MemN2N model in Python for the [bAbI question-answering tasks](http://fb.ai/babi) 
 as shown in the Section 4 of the paper "[End-To-End Memory Networks](http://arxiv.org/abs/1503.08895)". It is based on 
-the Facebook's [Matlab code](https://github.com/facebook/MemNN/tree/master/MemN2N-babi-matlab).
+Facebook's [Matlab code](https://github.com/facebook/MemNN/tree/master/MemN2N-babi-matlab).
 
 ![Web-based Demo](http://i.imgur.com/mKtZ7kB.gif)
 
