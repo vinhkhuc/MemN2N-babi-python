@@ -38,7 +38,7 @@ python babi_runner.py -j
 ```
 
 ## Question Answering Demo
-* In order to run the Web-based demo using the pretrained model `memn2n_model.pklz` in `trained_model/`, use:
+* In order to run the Web-based demo using the pretrained model `memn2n_model.pklz` in `trained_model/`, run:
 ```
 python -m demo.qa
 ```
@@ -61,9 +61,11 @@ See the results [here](https://github.com/vinhkhuc/MemN2N-babi-python/tree/maste
 ### Author
 Vinh Khuc
 
-### License
-BSD
-
 ### Future Plans
 * Port to TensorFlow/Keras
 * Support Python 3
+
+### References
+* Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston, Rob Fergus, 
+  "[End-To-End Memory Networks](http://arxiv.org/abs/1503.08895)",
+  *arXiv:1503.08895 [cs.NE]*.
