@@ -2,7 +2,9 @@
 Demo of using Memory Network for question answering
 """
 import glob
+import os
 import gzip
+import sys
 import pickle
 
 import argparse
@@ -252,6 +254,10 @@ if __name__ == "__main__":
     group.add_argument("-web", "--web-demo", action="store_true", default=True,
                        help="run web-based demo (default: %(default)s)")
     args = parser.parse_args()
+
+    if not os.path.exists(args.data_dir):
+        print("The data directory '%s' does not exist. Please download it first." % args.data_dir)
+        sys.exit(1)
 
     if args.train:
         train_model(args.data_dir, args.model_file)
