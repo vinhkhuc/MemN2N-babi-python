@@ -89,7 +89,7 @@ class MemoryBoW(Memory):
     """
     def __init__(self, config):
         super(MemoryBoW, self).__init__(config)
-        self.data = np.zeros((config.max_words, self.sz, config.bsz), np.float32)
+        self.data = np.zeros((config["max_words"], self.sz, config["bsz"]), np.float32)
 
     def init_query_module(self):
         self.emb_query = LookupTable(self.voc_sz, self.in_dim)
